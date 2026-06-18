@@ -181,10 +181,10 @@ clearAllBtn.addEventListener("click", () => {
 
 // Initial Load
 displayTasks();
-/*
+
 resetAppBtn.addEventListener("click", () => {
     if(confirm("Reset the entire app?")) {
         localStorage.clear();
         location.reload();
     }
-});*/
+});
