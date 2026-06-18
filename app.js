@@ -11,7 +11,6 @@ const todoContainer = document.getElementById("todoContainer");
 
 
 const clearAllBtn = document.getElementById("clearAllBtn");
-const resetAppBtn = document.getElementById("resetAppBtn");
 
 let tasks = JSON.parse(localStorage.getItem("tasks")) || [];
 let username = localStorage.getItem("username");
@@ -182,9 +181,3 @@ clearAllBtn.addEventListener("click", () => {
 // Initial Load
 displayTasks();
 
-resetAppBtn.addEventListener("click", () => {
-    if(confirm("Reset the entire app?")) {
-        localStorage.clear();
-        location.reload();
-    }
-});
