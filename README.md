@@ -10,7 +10,6 @@ A simple and interactive To-Do Application built using HTML, CSS, and JavaScript
 * Mark tasks as Complete / Undo
 * Delete individual tasks
 * Clear all tasks
-* Change username
 * Save data using Local Storage
 * Mobile responsive design
 * User-friendly interface
