@@ -9,7 +9,7 @@ const nameInput = document.getElementById("nameInput");
 const saveNameBtn = document.getElementById("saveNameBtn");
 const todoContainer = document.getElementById("todoContainer");
 
-const changeNameBtn = document.getElementById("changeNameBtn");
+
 const clearAllBtn = document.getElementById("clearAllBtn");
 const resetAppBtn = document.getElementById("resetAppBtn");
 
@@ -163,11 +163,7 @@ taskInput.addEventListener("keydown", (e) => {
     }
 });
 
-// Change Name
-changeNameBtn.addEventListener("click", () => {
-    localStorage.removeItem("username");
-    location.reload();
-});
+
 
 // Clear All Tasks
 clearAllBtn.addEventListener("click", () => {
